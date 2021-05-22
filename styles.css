@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     display: flex;
+}
+
+form{
+
 }
 
 a{
@@ -15,4 +23,8 @@ a{
 header img{
     height: 30px;
     width: 92px;
+}
+
+header div{
+    margin-left: 50px;
 }
