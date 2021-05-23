@@ -8,6 +8,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* logo/searchbar/nav */
+
 header{
     display: flex;
     height: 100px;
@@ -47,11 +49,11 @@ header img{
     margin-left: 20px;
 }
 
-header div{
+.form-nav-wrapper{
     margin-left: 50px;
 }
 
-header div, header img{
+.form-nav-wrapper, header img{
     align-self: center;
 }
 
@@ -59,4 +61,33 @@ header div, header img{
     border: 1px solid transparent;
     box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 16%);
     border-radius: 24px;
+}
+
+.settings-tools{
+    margin-left: 50px;
+}
+
+hr{
+    width: 100%;
+}
+
+/* Search result stats */
+
+.num-results{
+    color: #70757a;
+    font-size: 14px;
+    margin-left: 165px;
+}
+
+/* Search results */
+
+.search-results{
+    display: flex;
+    margin-left: 165px;
+    flex-direction: column;
+    width: 40%;
+}
+
+.web-url i{
+    margin-left: 25px;
 }
