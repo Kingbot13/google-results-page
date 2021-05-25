@@ -51,6 +51,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 header img{
     height: 30px;
     width: 92px;
@@ -130,6 +134,7 @@ hr{
     display: flex;
     align-items: center;
     width: 248px;
+    margin: 4px 8px;
 }
 
 .search-options span{
