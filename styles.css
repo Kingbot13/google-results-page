@@ -69,6 +69,11 @@ header a:hover{
     text-decoration: none;
 }
 
+.img-searchbar-wrapper{
+    display: flex;
+    align-self: center;
+}
+
 .form-nav-wrapper{
     margin-left: 50px;
 }
