@@ -182,7 +182,7 @@ hr{
 
 .pages{
     display: flex;
-    margin: 25px 0 0 336px;
+    margin: 25px 0 25px 336px;
     width: 310px;
 }
 
@@ -236,4 +236,28 @@ hr{
 
 .e{
     color: #F23838;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    padding-left: 165px;
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+footer div{
+    padding-top: 50px;
+    padding-left: 27px;
+}
+
+footer a{
+    color: #70757a;
+}
+
+footer a:hover{
+    text-decoration: none;
 }
