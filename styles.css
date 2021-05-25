@@ -177,3 +177,49 @@ hr{
     font-weight: 400;
     margin-bottom: 25px;
 }
+
+/* Search results page selectors (Goooooooogle)*/
+
+.pages{
+    display: flex;
+    margin: 25px 0 0 336px;
+    width: 310px;
+}
+
+.pages a{
+    color: #1a73e8;
+}
+
+.other-pages, .next{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.next i{
+    justify-content: center;
+    margin-top: auto;
+}
+
+.next div{
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.current-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.G, .current-page p, .other-pages p, .gle{
+    font-size: 30px;
+}
+
+.gle{
+    display: flex;
+}
+
+.lower-g{
+    
+}
