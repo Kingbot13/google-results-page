@@ -141,6 +141,15 @@ hr{
     padding-left: 25px;
 }
 
+.search-options a{
+    color: #202124;
+    font-size: 16px;
+}
+
+.search-options strong{
+    font-weight: bold;
+}
+
 .related i{
     margin-left: 25px;
 }
